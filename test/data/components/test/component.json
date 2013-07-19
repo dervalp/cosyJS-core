@@ -1,0 +1,6 @@
+{
+    "name": "test",
+    "category": "ui",
+    "script": "test.js",
+    "version": "0.1.0"
+}
