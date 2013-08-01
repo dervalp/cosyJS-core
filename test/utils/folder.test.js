@@ -1,6 +1,6 @@
 var fileCrawler = require( "../../lib/utils/folderCrawler" ),
     path = require( "path" ),
-    testPath = path.resolve( __dirname + "/../data/" ),
+    testPath = path.resolve( __dirname + "/../data/components/" ),
     should = require( "should" );
 
 describe( "Given a folderCrawler", function( ) {
@@ -8,7 +8,6 @@ describe( "Given a folderCrawler", function( ) {
         fileCrawler.should.exists;
     } );
     it( "should be able to crawl the test folder", function( ) {
-        console.log( testPath )
         var result = fileCrawler.crawlSync( testPath );
         result.length.should.equal( 1 );
     } );

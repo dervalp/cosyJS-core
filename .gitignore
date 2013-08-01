@@ -1,6 +1,7 @@
 lib-cov
 donotupdate
 node_modules
+cosy_modules
 *.seed
 *.log
 *.csv

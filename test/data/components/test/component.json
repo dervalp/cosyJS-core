@@ -1,6 +1,7 @@
 {
     "name": "test",
     "category": "ui",
-    "script": "test.js",
-    "version": "0.1.0"
+    "scripts": "test.js",
+    "version": "0.1.0",
+    "styles": "style.css"
 }

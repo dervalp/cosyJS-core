@@ -1,1 +1,1 @@
-var toto = "test";
+var toto = 'test';

@@ -1,0 +1,19 @@
+{
+  "name": "test2",
+  "route": "/test2",
+  "layout": "base.html",
+  "grid": "simple",
+  "components": [ {
+      "type": "placeholderComp",
+      "id": "PlaceholderComp",
+      "placeholder": "contentMain"
+    }, {
+      "type": "test",
+      "id": "Test01",
+      "placeholder": "PlaceholderComp.Test",
+      "data": {
+        "name": "Toto"
+      }
+    }
+  ]
+}

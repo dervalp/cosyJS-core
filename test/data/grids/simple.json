@@ -1,0 +1,34 @@
+{
+  "id": "simple",
+  "name": "root",
+  "columns": [ {
+      "name": "global",
+      "parent": "root",
+      "columns": [ {
+          "name": "globalHeader",
+          "row": true,
+          "parent": "global",
+          "columns": [ {
+              "name": "globalHeaderContent",
+              "size": 12,
+              "parent": "globalHeader"
+            }
+          ]
+        }
+      ]
+    }, {
+      "name": "content",
+      "row": true,
+      "parent": "root",
+      "columns": [ {
+          "name": "contentMain",
+          "size": 12,
+          "parent": "content"
+        }
+      ]
+    }, {
+      "name": "footer",
+      "parent": "root"
+    }
+  ]
+}
