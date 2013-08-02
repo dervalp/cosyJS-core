@@ -1,5 +1,4 @@
 var Cosy = require( "../lib/cosy" ),
-    _c = require( "cosy-client" ),
     should = require( "should" );
 
 describe( "Given a Cosy Object", function( ) {
@@ -11,7 +10,6 @@ describe( "Given a Cosy Object", function( ) {
         var instance = new Cosy( );
 
         instance.getConfig.should.exist;
-        instance.getPage.should.exist;
         instance.getStructure.should.exist;
         instance.getLayout.should.exist;
         instance.getScript.should.exist;

@@ -1,5 +1,4 @@
 var external = require( "../lib/external" ),
-    _c = require( "cosy-client" ),
     path = require( "path" ),
     should = require( "should" );
 

@@ -1,5 +1,5 @@
 var kernel = require( "../lib/kernel" ),
-    _c = require( "cosy-client" ),
+    _c = require( "cosy-client" ).cosy,
     should = require( "should" );
 
 describe( "Given cosy Kernel", function( ) {
