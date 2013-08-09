@@ -1,6 +1,6 @@
 var fileCrawler = require( "../../lib/utils/folderCrawler" ),
     path = require( "path" ),
-    testPath = path.resolve( __dirname + "/../data/components/" ),
+    testPath = path.resolve( __dirname + "/../../data/components/" ),
     should = require( "should" );
 
 describe( "Given a folderCrawler", function( ) {

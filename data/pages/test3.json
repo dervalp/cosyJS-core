@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "route": "/test3",
+  "layout": "base.html",
+  "grid": "simple",
+  "components": [ {
+      "type": "test",
+      "id": "Test01",
+      "placeholder": "contentMain",
+      "data": {
+        "name": "Toto"
+      }
+    },
+    {
+      "type": "test",
+      "id": "Test02",
+      "placeholder": "contentMain",
+      "data": {
+        "name": "Toto"
+      }
+    }
+  ]
+}

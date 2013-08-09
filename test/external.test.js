@@ -2,10 +2,10 @@ var external = require( "../lib/external" ),
     path = require( "path" ),
     should = require( "should" );
 
-var gridPath = path.normalize( process.cwd( ) + "/test/data/grids/" ),
-    pagePath = path.normalize( process.cwd( ) + "/test/data/pages/" ),
-    controllerPath = path.normalize( process.cwd( ) + "/test/data/controllers/" ),
-    layoutPath = path.normalize( process.cwd( ) + "/test/data/layouts/" );
+var gridPath = path.normalize( process.cwd( ) + "/data/grids/" ),
+    pagePath = path.normalize( process.cwd( ) + "/data/pages/" ),
+    controllerPath = path.normalize( process.cwd( ) + "/data/controllers/" ),
+    layoutPath = path.normalize( process.cwd( ) + "/data/layouts/" );
 
 describe( "Given cosy Kernel", function( ) {
     it( "should be defined", function( ) {

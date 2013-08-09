@@ -1,6 +1,6 @@
 var Builder = require( "../../lib/component/builder" ),
     path = require( "path" ),
-    testPath = path.resolve( __dirname + "/../data/components/test/" ),
+    testPath = path.resolve( __dirname + "/../../data/components/test/" ),
     should = require( "should" );
 
 describe( "Given a component builder", function( ) {
@@ -18,7 +18,8 @@ describe( "Given a component builder", function( ) {
                 res.config.should.exists;
                 res.dir.should.exists;
                 res.config.name.should.equal( "test" );
-                res.js.should.equal( "var toto = 'test';" );
+                var index = res.js.indexOf( "_c.component" );
+                ( index > -1 ).should.be.true;
                 res.css.should.equal( ".test {color:red;}" );
                 done( );
             } );

@@ -2,9 +2,9 @@ var API = require( "../lib/API" ),
     path = require( "path" ),
     should = require( "should" );
 
-var gridPath = path.normalize( process.cwd( ) + "/test/data/grids/" ),
-    layoutPath = path.normalize( process.cwd( ) + "/test/data/layouts/" ),
-    pagePath = path.normalize( process.cwd( ) + "/test/data/pages/" );
+var gridPath = path.normalize( process.cwd( ) + "/data/grids/" ),
+    layoutPath = path.normalize( process.cwd( ) + "/data/layouts/" ),
+    pagePath = path.normalize( process.cwd( ) + "/data/pages/" );
 
 var basicTestResult = "<!DOCTYPE html><html><head><title></title></head><body><div id='root' ><div id='global' ><div id='globalHeader' ><div id='globalHeaderContent' class='cosy-12 globalHeaderContent'></div></div></div><div id='content' ><div id='contentMain' class='cosy-12 contentMain'><div cosy-type='test' cosy-id='Test1'>Toto</div></div></div><div id='footer' ></div></div></body></html>";
 var placeholderTestResult = "<!DOCTYPE html><html><head><title></title></head><body><div id='root' ><div id='global' ><div id='globalHeader' ><div id='globalHeaderContent' class='cosy-12 globalHeaderContent'></div></div></div><div id='content' ><div id='contentMain' class='cosy-12 contentMain'><div cosy-type='placeholderComp' cosy-id='Test2'><div cosy-type='test' cosy-id='Test1'>Toto</div></div></div></div><div id='footer' ></div></div></body></html>";

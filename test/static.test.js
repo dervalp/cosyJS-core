@@ -3,10 +3,10 @@ var API = require( "../lib/API" ),
     path = require( "path" ),
     should = require( "should" );
 
-var gridPath = path.normalize( process.cwd( ) + "/test/data/grids/" ),
-    layoutPath = path.normalize( process.cwd( ) + "/test/data/layouts/" ),
-    controllerPath = path.normalize( process.cwd( ) + "/test/data/controllers/" ),
-    pagePath = path.normalize( process.cwd( ) + "/test/data/pages/" );
+var gridPath = path.normalize( process.cwd( ) + "/data/grids/" ),
+    layoutPath = path.normalize( process.cwd( ) + "/data/layouts/" ),
+    controllerPath = path.normalize( process.cwd( ) + "/data/controllers/" ),
+    pagePath = path.normalize( process.cwd( ) + "/data/pages/" );
 
 describe( "Given a Static Server", function( ) {
     describe( "and a cosy instance", function( ) {
