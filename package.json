@@ -20,7 +20,6 @@
     "cosy-grid": "0.0.3",
     "async": "~0.2.9",
     "underscore": "~1.5.1",
-    "handlebars": "~1.0.12",
     "jade": "~0.33.0",
     "batch": "~0.4.0",
     "browserify": "~2.25.0",
