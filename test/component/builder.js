@@ -21,6 +21,7 @@ describe( "Given a component builder", function( ) {
                 var index = res.js.indexOf( "_c.component" );
                 ( index > -1 ).should.be.true;
                 res.css.should.equal( ".test {color:red;}" );
+                res.template.should.equal( "<p>Test</p>" )
                 done( );
             } );
         } );

@@ -3,5 +3,6 @@
     "category": "ui",
     "scripts": "test.js",
     "version": "0.1.0",
-    "styles": "style.css"
+    "styles": "style.css",
+    "templates": "template.tmpl"
 }
