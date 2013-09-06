@@ -27,7 +27,6 @@ describe( "Given a API", function( ) {
     } );
     it( "should get result from the start method", function( done ) {
         API.start( {}, function( err ) {
-
             done( );
         } );
     } );
@@ -43,7 +42,6 @@ describe( "Given a API", function( ) {
                 done( );
             } );
         } );
-
         it( "should be able to build a one Page", function( done ) {
 
             var config = instance.getConfig( "/test" ),
